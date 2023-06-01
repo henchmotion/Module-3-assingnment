@@ -1,0 +1,65 @@
+body {
+    background-color: #fff;
+}
+
+/* HEADER */
+#header-nav {
+    background-color: #808080;
+    border-radius: 0;
+    border: 1px solid #000000;
+}
+
+.navbar-brand h1 { /* Restaurnt name */
+    padding-top: 25px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: -20px;
+    margin-bottom: 0;
+    line-height: .75;
+    color: #000000;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-shadow:1px 1px 1px #000000;
+    color: #000000;
+   
+}
+
+section {
+    margin-top: 50px;
+    background-color: #808080;
+    color: #000000;
+    padding: 20px;
+    overflow: auto;
+    font-weight: bold;
+    height: 500px;
+}
+
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #000000;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #000000;
+    font-weight: bold;
+}
+
+#nav-list a span {
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    background-color: #222;
+}
+
+.navbar-header botton.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000  
+}
